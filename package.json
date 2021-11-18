@@ -1,0 +1,24 @@
+{
+  "name": "ospin-project",
+  "version": "1.0.0",
+  "description": "This is javascript Command Line Application with Node.js. Install the application using  npm install -g . Then run the below command to get the processed order from the csv provided run --path data/input.csv  To run the tests, run the below command  jest",
+  "main": "index.js",
+  "bin": {
+    "run": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.1",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
