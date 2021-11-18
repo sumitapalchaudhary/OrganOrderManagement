@@ -1,9 +1,14 @@
 This is javascript Command Line Application with Node.js.
 Install the application using 
+
 npm install -g .
+
 Then run the below command to get the processed order from the csv provided
+
 run --path data/input.csv 
+
 To run the tests, run the below command 
+
 node_modules/.bin/jest
 
 Note:
